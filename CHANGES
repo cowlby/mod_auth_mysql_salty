@@ -1,0 +1,6 @@
+ mod_auth_mysql_salt: authentication
+
+2009-08-16: (Version 1.0.0)
+ - patched for CentOS 5.3 with included patch.
+ - made salt required for SHA1.
+ - modified SHA1 authentication to use salt field.

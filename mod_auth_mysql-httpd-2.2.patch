@@ -1,0 +1,92 @@
+209c209
+<   #define STRCAT ap_pstrcat
+---
+>   #define STRCAT apr_pstrcat
+237c237
+<   #define SNPRINTF ap_snprintf
+---
+>   #define STRCAT apr_pstrcat
+592c592
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlhost),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlhost),
+596c596
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlport),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlport),
+600c600
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlsocket),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlsocket),
+604c604
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqluser),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqluser),
+608c608
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlpasswd),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlpasswd),
+612c612
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlDB),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlDB),
+616c616
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlpwtable),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlpwtable),
+620c620
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlgrptable),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlgrptable),
+624c624
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlNameField),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlNameField),
+628c628
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlGroupField),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlGroupField),
+632c632
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlGroupUserNameField),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlGroupUserNameField),
+636c636
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlPasswordField),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlPasswordField),
+640c640
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlEncryptionField),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlEncryptionField),
+644c644
+< 	(void*) APR_XtOffsetOf(mysql_auth_config_rec, mysqlSaltField),
+---
+> 	(void*) APR_OFFSETOF(mysql_auth_config_rec, mysqlSaltField),
+648c648
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlKeepAlive),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlKeepAlive),
+652c652
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlAuthoritative),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlAuthoritative),
+656c656
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlNoPasswd),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlNoPasswd),
+660c660
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlEnable),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlEnable),
+664c664
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlUserCondition),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlUserCondition),
+668c668
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlGroupCondition),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlGroupCondition),
+672c672
+< 	(void *) APR_XtOffsetOf(mysql_auth_config_rec, mysqlCharacterSet),
+---
+> 	(void *) APR_OFFSETOF(mysql_auth_config_rec, mysqlCharacterSet),
